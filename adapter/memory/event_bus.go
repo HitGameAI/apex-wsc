@@ -28,8 +28,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/kamalyes/go-toolbox/pkg/syncx"
-	"github.com/kamalyes/go-wsc/spi"
+	"github.com/HitGameAI/apex-toolbox/pkg/syncx"
+	"github.com/HitGameAI/apex-wsc/spi"
 )
 
 // 分发重投上限（等价 JetStream maxDeliver；超限丢弃并计数，避免毒消息死循环）

@@ -22,7 +22,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // ConnectionStore 连接记录存储接口

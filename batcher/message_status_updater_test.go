@@ -29,7 +29,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // newStatusUpdaterWriter 创建带假消息仓储的端口替身（本包不依赖真实 Hub）

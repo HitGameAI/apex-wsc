@@ -17,12 +17,12 @@ import (
 	"fmt"
 	"time"
 
-	wscconfig "github.com/kamalyes/go-config/pkg/wsc"
-	"github.com/kamalyes/go-toolbox/pkg/convert"
-	"github.com/kamalyes/go-toolbox/pkg/mathx"
-	"github.com/kamalyes/go-wsc/constants"
-	"github.com/kamalyes/go-wsc/models"
-	"github.com/kamalyes/go-wsc/spi"
+	wscconfig "github.com/HitGameAI/apex-cos/pkg/wsc"
+	"github.com/HitGameAI/apex-toolbox/pkg/convert"
+	"github.com/HitGameAI/apex-toolbox/pkg/mathx"
+	"github.com/HitGameAI/apex-wsc/constants"
+	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/HitGameAI/apex-wsc/spi"
 	"github.com/redis/go-redis/v9"
 )
 

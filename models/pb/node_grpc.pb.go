@@ -12,7 +12,7 @@
 //
 // 路由元数据设计（namespace / group_ids）：
 //   - 通过 gRPC metadata headers 传递（非 proto 字段），避免消息体膨胀
-//   - 定义位于独立 routing 包（github.com/kamalyes/go-wsc/routing），全项目共用
+//   - 定义位于独立 routing 包（github.com/HitGameAI/apex-wsc/routing），全项目共用
 //   - x-routing-namespace：命名空间ID（空表示全局，默认 "default"）
 //   - x-routing-group-ids：群组ID列表（逗号分隔；空表示无群组操作）
 //   - 客户端注入：routing.InjectToOutgoingMetadata（从 context 提取并写入 metadata）

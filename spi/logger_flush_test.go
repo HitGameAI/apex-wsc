@@ -31,7 +31,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kamalyes/go-logger"
+	"github.com/HitGameAI/apex-toolbox/pkg/logger"
 )
 
 // TestConsoleWriterFlushIsLoadBearing 不刷出则日志不落盘，刷出后全部落盘

@@ -21,9 +21,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	wscconfig "github.com/kamalyes/go-config/pkg/wsc"
+	wscconfig "github.com/HitGameAI/apex-cos/pkg/wsc"
 
-	"github.com/kamalyes/go-wsc/spi"
+	"github.com/HitGameAI/apex-wsc/spi"
 )
 
 // newTestWorkerPool 构造指定 workers/queueSize 的测试工作池

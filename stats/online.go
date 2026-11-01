@@ -18,8 +18,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/kamalyes/go-wsc/models"
-	"github.com/kamalyes/go-wsc/routing"
+	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/HitGameAI/apex-wsc/routing"
 )
 
 // GetAllOnlineUserIDs 获取所有在线用户 ID 列表

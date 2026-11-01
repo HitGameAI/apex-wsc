@@ -25,8 +25,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kamalyes/go-wsc/models"
-	wscpb "github.com/kamalyes/go-wsc/models/pb"
+	"github.com/HitGameAI/apex-wsc/models"
+	wscpb "github.com/HitGameAI/apex-wsc/models/pb"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"

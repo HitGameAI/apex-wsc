@@ -20,9 +20,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/kamalyes/go-wsc/batcher"
-	"github.com/kamalyes/go-wsc/connection"
-	"github.com/kamalyes/go-wsc/spi"
+	"github.com/HitGameAI/apex-wsc/batcher"
+	"github.com/HitGameAI/apex-wsc/connection"
+	"github.com/HitGameAI/apex-wsc/spi"
 )
 
 // Host 统计域所需的 Hub 能力面。

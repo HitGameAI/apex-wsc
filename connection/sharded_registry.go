@@ -29,9 +29,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/kamalyes/go-toolbox/pkg/syncx"
-	"github.com/kamalyes/go-wsc/constants"
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-toolbox/pkg/syncx"
+	"github.com/HitGameAI/apex-wsc/constants"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // defaultShardCount 默认分片数量

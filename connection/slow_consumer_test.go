@@ -20,7 +20,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // fakeEvictHook 记录驱逐回调的测试桩

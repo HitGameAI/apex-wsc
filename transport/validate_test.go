@@ -22,7 +22,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	wscconfig "github.com/kamalyes/go-config/pkg/wsc"
+	wscconfig "github.com/HitGameAI/apex-cos/pkg/wsc"
 )
 
 // newValidateConfig 构造预检测试配置（默认全启用必填校验，用例内按需调整）

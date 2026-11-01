@@ -24,7 +24,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // makeNSClient 构造指定 appID+namespace 的测试客户端（nsIdx 建键维度）

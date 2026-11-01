@@ -17,7 +17,7 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // WebSocket 结构体表示底层 WebSocket 连接

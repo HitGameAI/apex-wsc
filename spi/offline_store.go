@@ -24,7 +24,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // MessageRole 查询视角 —— 用户是消息的接收者还是发送者

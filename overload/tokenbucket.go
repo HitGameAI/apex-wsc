@@ -25,7 +25,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/kamalyes/go-wsc/constants"
+	"github.com/HitGameAI/apex-wsc/constants"
 )
 
 // Shaper GCRA 令牌桶（出向整形器）

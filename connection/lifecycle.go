@@ -23,9 +23,9 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/kamalyes/go-wsc/models"
-	"github.com/kamalyes/go-wsc/routing"
-	"github.com/kamalyes/go-wsc/spi"
+	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/HitGameAI/apex-wsc/routing"
+	"github.com/HitGameAI/apex-wsc/spi"
 )
 
 // MultiLoginPolicy 多端登录策略快照（编排层构造期从全局配置提取）

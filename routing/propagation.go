@@ -18,7 +18,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/kamalyes/go-wsc/constants"
+	"github.com/HitGameAI/apex-wsc/constants"
 	"google.golang.org/grpc/metadata"
 )
 

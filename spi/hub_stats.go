@@ -18,7 +18,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // HubStats Hub 统计信息接口

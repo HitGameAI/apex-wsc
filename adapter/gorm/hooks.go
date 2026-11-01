@@ -25,8 +25,8 @@ import (
 	"context"
 	"fmt"
 
-	wscconfig "github.com/kamalyes/go-config/pkg/wsc"
-	"github.com/kamalyes/go-wsc/spi"
+	wscconfig "github.com/HitGameAI/apex-cos/pkg/wsc"
+	"github.com/HitGameAI/apex-wsc/spi"
 	"gorm.io/gorm"
 )
 

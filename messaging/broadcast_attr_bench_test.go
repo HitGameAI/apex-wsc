@@ -17,8 +17,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/kamalyes/go-logger"
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-toolbox/pkg/logger"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // benchAttrRegistry 注册 n 个 customer 连接 + hits 个 agent 连接

@@ -17,9 +17,9 @@ package stats
 import (
 	"context"
 
-	"github.com/kamalyes/go-wsc/batcher"
-	"github.com/kamalyes/go-wsc/connection"
-	"github.com/kamalyes/go-wsc/spi"
+	"github.com/HitGameAI/apex-wsc/batcher"
+	"github.com/HitGameAI/apex-wsc/connection"
+	"github.com/HitGameAI/apex-wsc/spi"
 )
 
 // fakeHost 嵌入 Host 接口，仅覆盖测试用到的方法。

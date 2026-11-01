@@ -583,7 +583,7 @@ const file_wsc_proto_rawDesc = "" +
 	"\n" +
 	"load_score\x18\x05 \x01(\x01R\tloadScore\x127\n" +
 	"\tlast_seen\x18\x06 \x01(\v2\x1a.google.protobuf.TimestampR\blastSeen\x12 \n" +
-	"\vconnections\x18\a \x01(\x03R\vconnectionsB,Z*github.com/kamalyes/go-wsc/models/pb;wscpbb\x06proto3"
+	"\vconnections\x18\a \x01(\x03R\vconnectionsB,Z*github.com/HitGameAI/apex-wsc/models/pb;wscpbb\x06proto3"
 
 var (
 	file_wsc_proto_rawDescOnce sync.Once

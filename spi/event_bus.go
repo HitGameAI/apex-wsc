@@ -23,7 +23,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // EventBusTopic 订阅语义（Publish 侧由信封 Intent 自动路由，无需指定）

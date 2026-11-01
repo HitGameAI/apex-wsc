@@ -16,13 +16,13 @@ import (
 	"runtime/debug"
 	"time"
 
-	wscconfig "github.com/kamalyes/go-config/pkg/wsc"
-	"github.com/kamalyes/go-logger"
-	sqlbuilder "github.com/kamalyes/go-sqlbuilder/repository"
-	"github.com/kamalyes/go-toolbox/pkg/mathx"
-	"github.com/kamalyes/go-toolbox/pkg/syncx"
-	"github.com/kamalyes/go-wsc/models"
-	"github.com/kamalyes/go-wsc/spi"
+	wscconfig "github.com/HitGameAI/apex-cos/pkg/wsc"
+	"github.com/HitGameAI/apex-toolbox/pkg/logger"
+	sqlbuilder "github.com/HitGameAI/apex-toolbox/pkg/sqlbuilder/repository"
+	"github.com/HitGameAI/apex-toolbox/pkg/mathx"
+	"github.com/HitGameAI/apex-toolbox/pkg/syncx"
+	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/HitGameAI/apex-wsc/spi"
 	"gorm.io/gorm"
 )
 

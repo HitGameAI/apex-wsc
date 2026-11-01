@@ -22,9 +22,9 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/kamalyes/go-logger"
-	"github.com/kamalyes/go-wsc/models"
-	"github.com/kamalyes/go-wsc/spi"
+	"github.com/HitGameAI/apex-toolbox/pkg/logger"
+	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/HitGameAI/apex-wsc/spi"
 )
 
 // footprintN 常驻内存采样规模（20w 连接足够外推千万级，进程内存可控）

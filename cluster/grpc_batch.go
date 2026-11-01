@@ -28,8 +28,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kamalyes/go-wsc/models"
-	wscpb "github.com/kamalyes/go-wsc/models/pb"
+	"github.com/HitGameAI/apex-wsc/models"
+	wscpb "github.com/HitGameAI/apex-wsc/models/pb"
 )
 
 // batchFlushTimeout 单批投递 RPC 超时（与 dispatchViaGRPC 的单条 gRPC 超时对齐）

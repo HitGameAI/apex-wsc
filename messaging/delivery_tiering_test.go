@@ -25,8 +25,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kamalyes/go-wsc/cluster"
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/cluster"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // makeExpressMessage 构造 express 档消息（typing 类型默认表 → GuaranteeEphemeral）

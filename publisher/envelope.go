@@ -22,8 +22,8 @@ import (
 	"encoding/hex"
 	"time"
 
-	"github.com/kamalyes/go-wsc/models"
-	"github.com/kamalyes/go-wsc/spi"
+	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/HitGameAI/apex-wsc/spi"
 )
 
 // EnvelopeBuilder 投递信封链式构建器

@@ -23,8 +23,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/kamalyes/go-wsc/models"
-	"github.com/kamalyes/go-wsc/routing"
+	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/HitGameAI/apex-wsc/routing"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

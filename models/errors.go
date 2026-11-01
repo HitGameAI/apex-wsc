@@ -11,7 +11,7 @@
 package models
 
 import (
-	"github.com/kamalyes/go-toolbox/pkg/errorx"
+	"github.com/HitGameAI/apex-toolbox/pkg/errorx"
 )
 
 // 错误类型定义，直接使用 errorx.ErrorType（不做 type alias）

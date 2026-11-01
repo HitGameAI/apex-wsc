@@ -17,8 +17,8 @@ package group
 import (
 	"testing"
 
-	"github.com/kamalyes/go-wsc/connection"
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/connection"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // observerFixture 注册表开启观察者能力（构造器第二参为 observerEnabled）

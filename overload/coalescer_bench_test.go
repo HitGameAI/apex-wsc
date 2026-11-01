@@ -17,7 +17,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // BenchmarkCoalescer_OfferSameKey 单 key 覆盖（最热竞争形态：同用户连发）

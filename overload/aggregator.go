@@ -31,7 +31,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/kamalyes/go-wsc/constants"
+	"github.com/HitGameAI/apex-wsc/constants"
 )
 
 // aggregatorShardCount 聚合分片数（Offer 热点分散，同 Coalescer 风格）

@@ -21,8 +21,8 @@
 package messaging
 
 import (
-	"github.com/kamalyes/go-wsc/models"
-	"github.com/kamalyes/go-wsc/overload"
+	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/HitGameAI/apex-wsc/overload"
 )
 
 // routeDeliveryFallback 投递失败的分级兜底路由（内部统一入口）

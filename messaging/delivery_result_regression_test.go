@@ -17,9 +17,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kamalyes/go-wsc/models"
-	"github.com/kamalyes/go-wsc/overload"
-	"github.com/kamalyes/go-wsc/spi"
+	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/HitGameAI/apex-wsc/overload"
+	"github.com/HitGameAI/apex-wsc/spi"
 	"github.com/stretchr/testify/require"
 )
 

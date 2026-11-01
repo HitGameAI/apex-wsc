@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	wscconfig "github.com/kamalyes/go-config/pkg/wsc"
-	"github.com/kamalyes/go-logger"
+	wscconfig "github.com/HitGameAI/apex-cos/pkg/wsc"
+	"github.com/HitGameAI/apex-toolbox/pkg/logger"
 )
 
 // Logger 日志接口，等价于 go-logger.ILogger

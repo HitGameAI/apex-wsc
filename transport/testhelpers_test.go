@@ -15,8 +15,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	wscconfig "github.com/kamalyes/go-config/pkg/wsc"
-	"github.com/kamalyes/go-wsc/models"
+	wscconfig "github.com/HitGameAI/apex-cos/pkg/wsc"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // fakeRegistrar Registrar 端口桩：记录全部回调供断言，支持注册同步钩子

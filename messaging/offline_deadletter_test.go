@@ -25,11 +25,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	wscconfig "github.com/kamalyes/go-config/pkg/wsc"
-	"github.com/kamalyes/go-wsc/constants"
-	"github.com/kamalyes/go-wsc/models"
-	"github.com/kamalyes/go-wsc/routing"
-	"github.com/kamalyes/go-wsc/spi"
+	wscconfig "github.com/HitGameAI/apex-cos/pkg/wsc"
+	"github.com/HitGameAI/apex-wsc/constants"
+	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/HitGameAI/apex-wsc/routing"
+	"github.com/HitGameAI/apex-wsc/spi"
 )
 
 // deadLetterSpyStore 记录查询过滤条件与推送状态更新的存储桩（其余方法 no-op）

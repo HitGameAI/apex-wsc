@@ -19,9 +19,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/kamalyes/go-toolbox/pkg/errorx"
-	"github.com/kamalyes/go-wsc/models"
-	"github.com/kamalyes/go-wsc/routing"
+	"github.com/HitGameAI/apex-toolbox/pkg/errorx"
+	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/HitGameAI/apex-wsc/routing"
 )
 
 // GetClientsByUserID 根据用户ID获取所有客户端（按 ctx 路由信封的 appID+namespace 隔离）

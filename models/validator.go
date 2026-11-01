@@ -10,7 +10,7 @@
  */
 package models
 
-import validator "github.com/kamalyes/go-argus/validate"
+import validator "github.com/HitGameAI/apex-toolbox/pkg/argus/validate"
 
 // 全局枚举验证器实例
 var (

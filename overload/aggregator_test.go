@@ -21,7 +21,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kamalyes/go-wsc/constants"
+	"github.com/HitGameAI/apex-wsc/constants"
 )
 
 // TestMessageAggregatorFlushJoinsArray 窗口攒批拼装：按序零重编码拼为 JSON 数组

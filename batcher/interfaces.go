@@ -17,8 +17,8 @@ package batcher
 import (
 	"context"
 
-	"github.com/kamalyes/go-wsc/models"
-	"github.com/kamalyes/go-wsc/spi"
+	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/HitGameAI/apex-wsc/spi"
 )
 
 // ObserverNotifier 观察者通知能力（ObserverNotificationBatcher 所需）

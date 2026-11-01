@@ -23,10 +23,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/kamalyes/go-logger"
-	"github.com/kamalyes/go-wsc/constants"
-	"github.com/kamalyes/go-wsc/models"
-	"github.com/kamalyes/go-wsc/routing"
+	"github.com/HitGameAI/apex-toolbox/pkg/logger"
+	"github.com/HitGameAI/apex-wsc/constants"
+	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/HitGameAI/apex-wsc/routing"
 )
 
 // benchFanoutUsers 注册 n 个用户（每用户 1 条 WS 连接）并返回 userID 列表

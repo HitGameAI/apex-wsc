@@ -19,7 +19,7 @@ package spi
 import (
 	"context"
 
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // WorkloadStore 客服负载存储接口

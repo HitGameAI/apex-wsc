@@ -12,7 +12,7 @@
 //
 // 路由元数据设计（namespace / group_ids）：
 //   - 通过 gRPC metadata headers 传递（非 proto 字段），避免消息体膨胀
-//   - 定义位于独立 routing 包（github.com/kamalyes/go-wsc/routing），全项目共用
+//   - 定义位于独立 routing 包（github.com/HitGameAI/apex-wsc/routing），全项目共用
 //   - x-routing-namespace：命名空间ID（空表示全局，默认 "default"）
 //   - x-routing-group-ids：群组ID列表（逗号分隔；空表示无群组操作）
 //   - 客户端注入：routing.InjectToOutgoingMetadata（从 context 提取并写入 metadata）
@@ -1091,7 +1091,7 @@ const file_node_proto_rawDesc = "" +
 	"\x0fNotifyObservers\x12\x1d.wscpb.NotifyObserversRequest\x1a\x1e.wscpb.NotifyObserversResponse\x12;\n" +
 	"\bKickUser\x12\x16.wscpb.KickUserRequest\x1a\x17.wscpb.KickUserResponse\x12/\n" +
 	"\x04Ping\x12\x12.wscpb.PingRequest\x1a\x13.wscpb.PingResponse\x12J\n" +
-	"\rBatchDispatch\x12\x1b.wscpb.BatchDispatchRequest\x1a\x1c.wscpb.BatchDispatchResponseB,Z*github.com/kamalyes/go-wsc/models/pb;wscpbb\x06proto3"
+	"\rBatchDispatch\x12\x1b.wscpb.BatchDispatchRequest\x1a\x1c.wscpb.BatchDispatchResponseB,Z*github.com/HitGameAI/apex-wsc/models/pb;wscpbb\x06proto3"
 
 var (
 	file_node_proto_rawDescOnce sync.Once

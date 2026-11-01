@@ -16,7 +16,7 @@
  */
 package redisadapter
 
-import "github.com/kamalyes/go-wsc/constants"
+import "github.com/HitGameAI/apex-wsc/constants"
 
 const (
 	// ============================================================================

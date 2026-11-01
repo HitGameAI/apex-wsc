@@ -20,8 +20,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/kamalyes/go-wsc/connection"
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/connection"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // SendToUserViaSSE 经 SSE 通道向用户投递（SSE 未启用或用户无订阅时返回 false）

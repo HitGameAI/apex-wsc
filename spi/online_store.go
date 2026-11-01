@@ -18,7 +18,7 @@ package spi
 import (
 	"context"
 
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // OnlineStore 在线状态仓库接口

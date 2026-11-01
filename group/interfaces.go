@@ -19,9 +19,9 @@ package group
 import (
 	"context"
 
-	"github.com/kamalyes/go-wsc/connection"
-	"github.com/kamalyes/go-wsc/models"
-	"github.com/kamalyes/go-wsc/spi"
+	"github.com/HitGameAI/apex-wsc/connection"
+	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/HitGameAI/apex-wsc/spi"
 )
 
 // Host 群组域所需的 Hub 能力面。

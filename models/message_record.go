@@ -13,8 +13,8 @@ package models
 import (
 	"time"
 
-	"github.com/kamalyes/go-sqlbuilder"
-	"github.com/kamalyes/go-toolbox/pkg/json"
+	"github.com/HitGameAI/apex-toolbox/pkg/sqlbuilder"
+	"github.com/HitGameAI/apex-toolbox/pkg/json"
 	"gorm.io/gorm"
 )
 

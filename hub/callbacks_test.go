@@ -24,9 +24,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	wscconfig "github.com/kamalyes/go-config/pkg/wsc"
+	wscconfig "github.com/HitGameAI/apex-cos/pkg/wsc"
 
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // newCallbacksTestHub 构造最小配置 Hub（ClientTimeout 给足量，避免时间轮任务

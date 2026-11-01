@@ -32,7 +32,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/kamalyes/go-wsc/routing"
+	"github.com/HitGameAI/apex-wsc/routing"
 )
 
 // nodeIndexCache 常量（实现细节，不跨包共享）

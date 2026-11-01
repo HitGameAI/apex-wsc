@@ -20,8 +20,8 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/kamalyes/go-toolbox/pkg/json"
-	"github.com/kamalyes/go-wsc/constants"
+	"github.com/HitGameAI/apex-toolbox/pkg/json"
+	"github.com/HitGameAI/apex-wsc/constants"
 )
 
 // Client 客户端连接（统一管理 WebSocket 和 SSE 连接）

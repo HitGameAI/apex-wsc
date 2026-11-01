@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kamalyes/go-wsc/spi"
+	"github.com/HitGameAI/apex-wsc/spi"
 )
 
 // Manager 消费域管理器（订阅生命周期与消费编排）

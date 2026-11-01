@@ -17,17 +17,17 @@ import (
 	"sync"
 	"time"
 
-	wscconfig "github.com/kamalyes/go-config/pkg/wsc"
-	"github.com/kamalyes/go-toolbox/pkg/errorx"
-	"github.com/kamalyes/go-toolbox/pkg/mathx"
-	"github.com/kamalyes/go-toolbox/pkg/syncx"
-	"github.com/kamalyes/go-toolbox/pkg/zipx"
-	"github.com/kamalyes/go-wsc/constants"
-	"github.com/kamalyes/go-wsc/routing"
+	wscconfig "github.com/HitGameAI/apex-cos/pkg/wsc"
+	"github.com/HitGameAI/apex-toolbox/pkg/errorx"
+	"github.com/HitGameAI/apex-toolbox/pkg/mathx"
+	"github.com/HitGameAI/apex-toolbox/pkg/syncx"
+	"github.com/HitGameAI/apex-toolbox/pkg/zipx"
+	"github.com/HitGameAI/apex-wsc/constants"
+	"github.com/HitGameAI/apex-wsc/routing"
 
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 
-	"github.com/kamalyes/go-wsc/spi"
+	"github.com/HitGameAI/apex-wsc/spi"
 	"github.com/redis/go-redis/v9"
 	"gorm.io/gorm"
 )

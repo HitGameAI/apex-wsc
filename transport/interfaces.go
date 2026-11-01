@@ -15,7 +15,7 @@
 package transport
 
 import (
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // Registrar 编排层注册端口 —— 传输接入流程中需要回调的编排能力

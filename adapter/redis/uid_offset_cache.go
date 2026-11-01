@@ -23,9 +23,9 @@ package redisadapter
 import (
 	"sync/atomic"
 
-	"github.com/kamalyes/go-toolbox/pkg/syncx"
+	"github.com/HitGameAI/apex-toolbox/pkg/syncx"
 
-	"github.com/kamalyes/go-wsc/constants"
+	"github.com/HitGameAI/apex-wsc/constants"
 )
 
 const (

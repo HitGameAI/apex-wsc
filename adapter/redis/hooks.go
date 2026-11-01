@@ -26,9 +26,9 @@ import (
 	"fmt"
 	"time"
 
-	wscconfig "github.com/kamalyes/go-config/pkg/wsc"
+	wscconfig "github.com/HitGameAI/apex-cos/pkg/wsc"
 
-	"github.com/kamalyes/go-wsc/spi"
+	"github.com/HitGameAI/apex-wsc/spi"
 	"github.com/redis/go-redis/v9"
 )
 

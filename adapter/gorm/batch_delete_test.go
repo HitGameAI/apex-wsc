@@ -29,7 +29,7 @@ import (
 	"gorm.io/gorm"
 	gormlogger "gorm.io/gorm/logger"
 
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

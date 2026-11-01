@@ -21,11 +21,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kamalyes/go-sqlbuilder"
-	"github.com/kamalyes/go-toolbox/pkg/syncx"
+	"github.com/HitGameAI/apex-toolbox/pkg/sqlbuilder"
+	"github.com/HitGameAI/apex-toolbox/pkg/syncx"
 
-	"github.com/kamalyes/go-wsc/models"
-	"github.com/kamalyes/go-wsc/spi"
+	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/HitGameAI/apex-wsc/spi"
 )
 
 // RecordManager 连接记录管理器（连接域）

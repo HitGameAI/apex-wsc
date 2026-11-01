@@ -21,9 +21,9 @@ package wscpb
 import (
 	"fmt"
 
-	"github.com/kamalyes/go-pbmo"
-	"github.com/kamalyes/go-toolbox/pkg/errorx"
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-toolbox/pkg/pbmo"
+	"github.com/HitGameAI/apex-toolbox/pkg/errorx"
+	"github.com/HitGameAI/apex-wsc/models"
 	"google.golang.org/protobuf/proto"
 )
 

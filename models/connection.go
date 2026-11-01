@@ -14,7 +14,7 @@ package models
 import (
 	"time"
 
-	"github.com/kamalyes/go-sqlbuilder"
+	"github.com/HitGameAI/apex-toolbox/pkg/sqlbuilder"
 )
 
 // ConnectionRecord WebSocket连接记录模型 - 详细记录每次连接的完整信息

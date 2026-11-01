@@ -19,12 +19,12 @@ package hub
 import (
 	"context"
 
-	"github.com/kamalyes/go-wsc/connection"
-	"github.com/kamalyes/go-wsc/group"
-	"github.com/kamalyes/go-wsc/messaging"
-	"github.com/kamalyes/go-wsc/models"
-	"github.com/kamalyes/go-wsc/overload"
-	"github.com/kamalyes/go-wsc/stats"
+	"github.com/HitGameAI/apex-wsc/connection"
+	"github.com/HitGameAI/apex-wsc/group"
+	"github.com/HitGameAI/apex-wsc/messaging"
+	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/HitGameAI/apex-wsc/overload"
+	"github.com/HitGameAI/apex-wsc/stats"
 )
 
 // ============================================================================

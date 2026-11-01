@@ -21,7 +21,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // WorkloadManager 客服负载管理器

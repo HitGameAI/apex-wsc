@@ -18,8 +18,8 @@ package group
 import (
 	"context"
 
-	"github.com/kamalyes/go-wsc/models"
-	"github.com/kamalyes/go-wsc/routing"
+	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/HitGameAI/apex-wsc/routing"
 )
 
 // VIPManager VIP 分级发送与统计管理器

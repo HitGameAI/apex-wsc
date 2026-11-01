@@ -25,9 +25,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	wscconfig "github.com/kamalyes/go-config/pkg/wsc"
-	"github.com/kamalyes/go-toolbox/pkg/json"
-	"github.com/kamalyes/go-wsc/models"
+	wscconfig "github.com/HitGameAI/apex-cos/pkg/wsc"
+	"github.com/HitGameAI/apex-toolbox/pkg/json"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // makeObserverClient 构造观察者客户端（WS 类型，SendChan 缓冲 1）

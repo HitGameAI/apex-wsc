@@ -29,7 +29,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 const (

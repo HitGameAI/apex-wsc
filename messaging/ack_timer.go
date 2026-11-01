@@ -35,7 +35,7 @@ import (
 	"math/rand/v2"
 	"time"
 
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // ackTimerKey 时间轮复合键：message_id + "|" + receiver

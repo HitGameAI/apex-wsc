@@ -27,7 +27,7 @@
 
 package group
 
-import "github.com/kamalyes/go-wsc/models"
+import "github.com/HitGameAI/apex-wsc/models"
 
 // ObserverManager 观察者查询与统计管理器
 type ObserverManager struct {

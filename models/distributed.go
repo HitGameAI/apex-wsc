@@ -18,7 +18,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/kamalyes/go-logger"
+	"github.com/HitGameAI/apex-toolbox/pkg/logger"
 )
 
 // DistributedMessage 分布式消息结构

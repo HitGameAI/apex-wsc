@@ -34,9 +34,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kamalyes/go-toolbox/pkg/mathx"
-	"github.com/kamalyes/go-wsc/constants"
-	"github.com/kamalyes/go-wsc/spi"
+	"github.com/HitGameAI/apex-toolbox/pkg/mathx"
+	"github.com/HitGameAI/apex-wsc/constants"
+	"github.com/HitGameAI/apex-wsc/spi"
 )
 
 // invalidationShards 分片数（2 的幂，配合按位与取模）

@@ -14,7 +14,7 @@ package gormadapter
 import (
 	"context"
 
-	"github.com/kamalyes/go-sqlbuilder/constants"
+	"github.com/HitGameAI/apex-toolbox/pkg/sqlbuilder/constants"
 	"gorm.io/gorm"
 )
 

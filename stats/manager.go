@@ -21,9 +21,9 @@ import (
 	"runtime/debug"
 	"time"
 
-	"github.com/kamalyes/go-toolbox/pkg/syncx"
-	"github.com/kamalyes/go-wsc/batcher"
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-toolbox/pkg/syncx"
+	"github.com/HitGameAI/apex-wsc/batcher"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // Manager 统计域管理器

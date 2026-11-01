@@ -30,7 +30,7 @@ import (
 
 	rand "math/rand/v2"
 
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // hotStripes 热计数分片数（2 的幂，写入按 rand 选片分散竞争）

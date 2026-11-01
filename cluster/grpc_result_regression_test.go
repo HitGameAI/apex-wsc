@@ -13,8 +13,8 @@ package cluster
 import (
 	"testing"
 
-	"github.com/kamalyes/go-wsc/models"
-	pb "github.com/kamalyes/go-wsc/models/pb"
+	"github.com/HitGameAI/apex-wsc/models"
+	pb "github.com/HitGameAI/apex-wsc/models/pb"
 	"github.com/stretchr/testify/require"
 )
 

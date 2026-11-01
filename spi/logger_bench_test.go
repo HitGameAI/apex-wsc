@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kamalyes/go-logger"
+	"github.com/HitGameAI/apex-toolbox/pkg/logger"
 )
 
 // benchLoggerTo 按 go-wsc 默认日志器的配置构造，仅替换输出目标

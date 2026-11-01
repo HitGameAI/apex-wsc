@@ -31,7 +31,7 @@ import (
 	"context"
 	"slices"
 
-	"github.com/kamalyes/go-wsc/constants"
+	"github.com/HitGameAI/apex-wsc/constants"
 )
 
 // routingCtxKey 路由元数据的 context key 类型（不可导出，避免外部伪造）

@@ -21,7 +21,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/kamalyes/go-wsc/spi"
+	"github.com/HitGameAI/apex-wsc/spi"
 )
 
 // 发布侧校验错误（调用方 bug 即刻暴露，不进 MQ 浪费带宽）

@@ -20,7 +20,7 @@ package overload
 import (
 	"context"
 
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // BatchSendFailureCallback 批量发送单条消息失败时的回调

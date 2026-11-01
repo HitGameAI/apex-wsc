@@ -33,8 +33,8 @@ package batcher
 import (
 	"time"
 
-	"github.com/kamalyes/go-toolbox/pkg/syncx"
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-toolbox/pkg/syncx"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // ObserverNotifyItem 观察者通知条目（内部使用）

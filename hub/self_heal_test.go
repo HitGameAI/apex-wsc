@@ -40,12 +40,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kamalyes/go-cachex"
-	wscconfig "github.com/kamalyes/go-config/pkg/wsc"
-	"github.com/kamalyes/go-wsc/constants"
-	"github.com/kamalyes/go-wsc/models"
-	wscpb "github.com/kamalyes/go-wsc/models/pb"
-	"github.com/kamalyes/go-wsc/spi"
+	"github.com/HitGameAI/apex-toolbox/pkg/cachex"
+	wscconfig "github.com/HitGameAI/apex-cos/pkg/wsc"
+	"github.com/HitGameAI/apex-wsc/constants"
+	"github.com/HitGameAI/apex-wsc/models"
+	wscpb "github.com/HitGameAI/apex-wsc/models/pb"
+	"github.com/HitGameAI/apex-wsc/spi"
 )
 
 // ============================================================================

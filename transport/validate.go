@@ -18,10 +18,10 @@ import (
 	"net/http"
 	"time"
 
-	gccommon "github.com/kamalyes/go-config/pkg/common"
-	wscconfig "github.com/kamalyes/go-config/pkg/wsc"
-	"github.com/kamalyes/go-toolbox/pkg/json"
-	"github.com/kamalyes/go-wsc/models"
+	gccommon "github.com/HitGameAI/apex-cos/pkg/common"
+	wscconfig "github.com/HitGameAI/apex-cos/pkg/wsc"
+	"github.com/HitGameAI/apex-toolbox/pkg/json"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // ValidateHandler 连接参数预检器

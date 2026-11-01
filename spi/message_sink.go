@@ -18,7 +18,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // MessageSink 消息归档与统计接口

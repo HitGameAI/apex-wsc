@@ -22,9 +22,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/kamalyes/go-wsc/models"
-	"github.com/kamalyes/go-wsc/routing"
-	"github.com/kamalyes/go-wsc/spi"
+	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/HitGameAI/apex-wsc/routing"
+	"github.com/HitGameAI/apex-wsc/spi"
 )
 
 // MaxEnvelopeBytes 信封编码后大小上限（保护 MQ 带宽与写泵；超大载荷走引用模式）

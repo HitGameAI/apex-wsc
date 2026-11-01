@@ -13,7 +13,7 @@ package models
 import (
 	"time"
 
-	"github.com/kamalyes/go-wsc/constants"
+	"github.com/HitGameAI/apex-wsc/constants"
 )
 
 // OfflineMessageRecord 离线消息记录

@@ -24,10 +24,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/kamalyes/go-logger"
-	"github.com/kamalyes/go-toolbox/pkg/breaker"
-	wscpb "github.com/kamalyes/go-wsc/models/pb"
-	"github.com/kamalyes/go-wsc/routing"
+	"github.com/HitGameAI/apex-toolbox/pkg/logger"
+	"github.com/HitGameAI/apex-toolbox/pkg/breaker"
+	wscpb "github.com/HitGameAI/apex-wsc/models/pb"
+	"github.com/HitGameAI/apex-wsc/routing"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )

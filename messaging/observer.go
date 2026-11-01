@@ -20,9 +20,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/kamalyes/go-wsc/cluster"
-	"github.com/kamalyes/go-wsc/models"
-	"github.com/kamalyes/go-wsc/routing"
+	"github.com/HitGameAI/apex-wsc/cluster"
+	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/HitGameAI/apex-wsc/routing"
 )
 
 // observerNotifyEnabled 观察者通知管道是否就绪（notifier 已注入且 observer 索引已启用）

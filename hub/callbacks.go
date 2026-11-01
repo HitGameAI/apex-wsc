@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // OfflineMessagePushCallback 离线消息推送回调

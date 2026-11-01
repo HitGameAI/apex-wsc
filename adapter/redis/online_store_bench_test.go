@@ -25,9 +25,9 @@ import (
 	"time"
 
 	"github.com/alicebob/miniredis/v2"
-	wscconfig "github.com/kamalyes/go-config/pkg/wsc"
-	"github.com/kamalyes/go-wsc/models"
-	"github.com/kamalyes/go-wsc/spi"
+	wscconfig "github.com/HitGameAI/apex-cos/pkg/wsc"
+	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/HitGameAI/apex-wsc/spi"
 	"github.com/redis/go-redis/v9"
 )
 

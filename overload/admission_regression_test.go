@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 	"github.com/stretchr/testify/require"
 )
 

@@ -24,7 +24,7 @@
 package cluster
 
 import (
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // ClusterOperation 集群操作类型（统一别名，消除 DistributedMessage 历史命名歧义）

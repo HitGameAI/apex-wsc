@@ -19,8 +19,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/kamalyes/go-wsc/models"
-	"github.com/kamalyes/go-wsc/spi"
+	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/HitGameAI/apex-wsc/spi"
 )
 
 // EvictHook 驱逐回调端口（消费者侧端口：Hub 实现，扫描器不感知驱逐细节）

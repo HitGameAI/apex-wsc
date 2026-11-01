@@ -14,7 +14,7 @@ package messaging
 import (
 	"context"
 
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // ============================================================================

@@ -34,15 +34,15 @@ import (
 	"time"
 
 	"github.com/alicebob/miniredis/v2"
-	wscconfig "github.com/kamalyes/go-config/pkg/wsc"
+	wscconfig "github.com/HitGameAI/apex-cos/pkg/wsc"
 	"github.com/redis/go-redis/v9"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kamalyes/go-wsc/constants"
-	"github.com/kamalyes/go-wsc/models"
-	"github.com/kamalyes/go-wsc/routing"
-	"github.com/kamalyes/go-wsc/spi"
+	"github.com/HitGameAI/apex-wsc/constants"
+	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/HitGameAI/apex-wsc/routing"
+	"github.com/HitGameAI/apex-wsc/spi"
 )
 
 // ============================================================================

@@ -37,10 +37,10 @@ import (
 	"sync"
 	"time"
 
-	gccommon "github.com/kamalyes/go-config/pkg/common"
-	wscconfig "github.com/kamalyes/go-config/pkg/wsc"
-	"github.com/kamalyes/go-toolbox/pkg/json"
-	"github.com/kamalyes/go-wsc/spi"
+	gccommon "github.com/HitGameAI/apex-cos/pkg/common"
+	wscconfig "github.com/HitGameAI/apex-cos/pkg/wsc"
+	"github.com/HitGameAI/apex-toolbox/pkg/json"
+	"github.com/HitGameAI/apex-wsc/spi"
 )
 
 // tokenNonceSize GCM nonce 长度（标准推荐 12 字节）

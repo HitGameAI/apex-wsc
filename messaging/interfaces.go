@@ -20,13 +20,13 @@ package messaging
 import (
 	"context"
 
-	wscconfig "github.com/kamalyes/go-config/pkg/wsc"
-	"github.com/kamalyes/go-wsc/batcher"
-	"github.com/kamalyes/go-wsc/cluster"
-	"github.com/kamalyes/go-wsc/connection"
-	"github.com/kamalyes/go-wsc/models"
-	"github.com/kamalyes/go-wsc/overload"
-	"github.com/kamalyes/go-wsc/spi"
+	wscconfig "github.com/HitGameAI/apex-cos/pkg/wsc"
+	"github.com/HitGameAI/apex-wsc/batcher"
+	"github.com/HitGameAI/apex-wsc/cluster"
+	"github.com/HitGameAI/apex-wsc/connection"
+	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/HitGameAI/apex-wsc/overload"
+	"github.com/HitGameAI/apex-wsc/spi"
 )
 
 // Host 消息域宿主端口

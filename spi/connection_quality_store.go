@@ -17,7 +17,7 @@ package spi
 import (
 	"context"
 
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // ConnectionQualityStore 连接质量存储接口

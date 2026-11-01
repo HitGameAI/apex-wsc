@@ -18,14 +18,14 @@ import (
 	"context"
 	"testing"
 
-	wscconfig "github.com/kamalyes/go-config/pkg/wsc"
+	wscconfig "github.com/HitGameAI/apex-cos/pkg/wsc"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	memorybus "github.com/kamalyes/go-wsc/adapter/memory"
-	"github.com/kamalyes/go-wsc/models"
-	"github.com/kamalyes/go-wsc/publisher"
-	"github.com/kamalyes/go-wsc/spi"
+	memorybus "github.com/HitGameAI/apex-wsc/adapter/memory"
+	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/HitGameAI/apex-wsc/publisher"
+	"github.com/HitGameAI/apex-wsc/spi"
 )
 
 func TestWithEventBus_Assembly(t *testing.T) {

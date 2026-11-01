@@ -15,10 +15,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kamalyes/go-logger"
-	"github.com/kamalyes/go-toolbox/pkg/json"
-	"github.com/kamalyes/go-wsc/constants"
-	"github.com/kamalyes/go-wsc/routing"
+	"github.com/HitGameAI/apex-toolbox/pkg/logger"
+	"github.com/HitGameAI/apex-toolbox/pkg/json"
+	"github.com/HitGameAI/apex-wsc/constants"
+	"github.com/HitGameAI/apex-wsc/routing"
 )
 
 // Data 字段的常量 key

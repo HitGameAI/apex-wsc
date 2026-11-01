@@ -24,9 +24,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/kamalyes/go-wsc/models"
-	"github.com/kamalyes/go-wsc/routing"
-	"github.com/kamalyes/go-wsc/spi"
+	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/HitGameAI/apex-wsc/routing"
+	"github.com/HitGameAI/apex-wsc/spi"
 )
 
 // DeliverFunc 投递收敛端口（hub.Deliver 的函数签名，注入避免依赖 hub 包）

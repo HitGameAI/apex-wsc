@@ -26,9 +26,9 @@ package connection
 
 import (
 	"github.com/gorilla/websocket"
-	"github.com/kamalyes/go-toolbox/pkg/json"
-	"github.com/kamalyes/go-wsc/models"
-	"github.com/kamalyes/go-wsc/spi"
+	"github.com/HitGameAI/apex-toolbox/pkg/json"
+	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/HitGameAI/apex-wsc/spi"
 )
 
 // controlMessageTypes 控制类消息集合（判定收敛于此，勿在调用方散落）

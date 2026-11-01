@@ -18,7 +18,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // ErrOfflineStorageSkipped 表示消息类型被策略排除，不能将跳过视为保存成功

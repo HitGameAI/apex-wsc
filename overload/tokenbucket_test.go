@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kamalyes/go-wsc/constants"
+	"github.com/HitGameAI/apex-wsc/constants"
 	"github.com/stretchr/testify/require"
 )
 

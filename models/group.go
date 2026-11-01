@@ -15,7 +15,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kamalyes/go-wsc/constants"
+	"github.com/HitGameAI/apex-wsc/constants"
 )
 
 // 系统保留组（`__` 前缀为系统组，业务组禁止使用）

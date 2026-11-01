@@ -15,8 +15,8 @@
 package wsc
 
 import (
-	wscconfig "github.com/kamalyes/go-config/pkg/wsc"
-	"github.com/kamalyes/go-wsc/hub"
+	wscconfig "github.com/HitGameAI/apex-cos/pkg/wsc"
+	"github.com/HitGameAI/apex-wsc/hub"
 )
 
 // Hub WebSocket/SSE 连接管理中心（编排层别名，业务方直接 import 本包即可）

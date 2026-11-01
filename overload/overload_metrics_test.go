@@ -14,7 +14,7 @@ package overload
 import (
 	"testing"
 
-	"github.com/kamalyes/go-wsc/models"
+	"github.com/HitGameAI/apex-wsc/models"
 )
 
 // TestDeliverModeIndex 决策树五模式桶下标与枚举顺序一一对应

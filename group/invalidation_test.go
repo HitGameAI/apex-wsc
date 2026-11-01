@@ -20,7 +20,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/kamalyes/go-wsc/spi"
+	"github.com/HitGameAI/apex-wsc/spi"
 )
 
 // fakeInvalidationHost 只实现聚合器用到的端口（GetLogger + PublishGroupInvalidations），

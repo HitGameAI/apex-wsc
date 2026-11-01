@@ -19,7 +19,7 @@
 package batcher
 
 import (
-	wscconfig "github.com/kamalyes/go-config/pkg/wsc"
+	wscconfig "github.com/HitGameAI/apex-cos/pkg/wsc"
 )
 
 // Manager 批处理器域管理器：持有七个攒批组件并提供域内访问器

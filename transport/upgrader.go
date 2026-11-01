@@ -27,16 +27,16 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	gccommon "github.com/kamalyes/go-config/pkg/common"
-	wscconfig "github.com/kamalyes/go-config/pkg/wsc"
-	"github.com/kamalyes/go-logger"
-	"github.com/kamalyes/go-toolbox/pkg/mathx"
-	"github.com/kamalyes/go-toolbox/pkg/metadata"
-	"github.com/kamalyes/go-toolbox/pkg/safe"
-	"github.com/kamalyes/go-wsc/connection"
-	"github.com/kamalyes/go-wsc/messaging"
-	"github.com/kamalyes/go-wsc/models"
-	"github.com/kamalyes/go-wsc/spi"
+	gccommon "github.com/HitGameAI/apex-cos/pkg/common"
+	wscconfig "github.com/HitGameAI/apex-cos/pkg/wsc"
+	"github.com/HitGameAI/apex-toolbox/pkg/logger"
+	"github.com/HitGameAI/apex-toolbox/pkg/mathx"
+	"github.com/HitGameAI/apex-toolbox/pkg/metadata"
+	"github.com/HitGameAI/apex-toolbox/pkg/safe"
+	"github.com/HitGameAI/apex-wsc/connection"
+	"github.com/HitGameAI/apex-wsc/messaging"
+	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/HitGameAI/apex-wsc/spi"
 )
 
 // DefaultMaxInboundBytes 服务端单帧入站上限默认值（1 MiB）
