@@ -4,7 +4,7 @@ go 1.25.0
 
 require (
 	github.com/alicebob/miniredis/v2 v2.40.0
-	github.com/gorilla/websocket v1.4.2
+	github.com/gorilla/websocket v1.5.3
 	github.com/jpillora/backoff v1.0.0
 	github.com/redis/go-redis/v9 v9.22.0
 	github.com/stretchr/testify v1.12.1
