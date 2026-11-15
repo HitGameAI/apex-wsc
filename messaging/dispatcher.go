@@ -21,9 +21,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/gorilla/websocket"
-	"github.com/HitGameAI/apex-toolbox/pkg/logger"
 	"github.com/HitGameAI/apex-toolbox/pkg/json"
+	"github.com/HitGameAI/apex-toolbox/pkg/logger"
 	"github.com/HitGameAI/apex-toolbox/pkg/mathx"
 	"github.com/HitGameAI/apex-toolbox/pkg/syncx"
 	"github.com/HitGameAI/apex-wsc/connection"
@@ -31,6 +30,7 @@ import (
 	"github.com/HitGameAI/apex-wsc/models"
 	"github.com/HitGameAI/apex-wsc/overload"
 	"github.com/HitGameAI/apex-wsc/routing"
+	"github.com/gorilla/websocket"
 )
 
 // ============================================================================

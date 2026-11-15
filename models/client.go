@@ -19,9 +19,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/gorilla/websocket"
 	"github.com/HitGameAI/apex-toolbox/pkg/json"
 	"github.com/HitGameAI/apex-wsc/constants"
+	"github.com/gorilla/websocket"
 )
 
 // Client 客户端连接（统一管理 WebSocket 和 SSE 连接）

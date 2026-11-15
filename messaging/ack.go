@@ -16,12 +16,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jpillora/backoff"
 	"github.com/HitGameAI/apex-toolbox/pkg/errorx"
 	"github.com/HitGameAI/apex-toolbox/pkg/mathx"
 	"github.com/HitGameAI/apex-toolbox/pkg/syncx"
 	"github.com/HitGameAI/apex-wsc/models"
 	"github.com/HitGameAI/apex-wsc/spi"
+	"github.com/jpillora/backoff"
 )
 
 // AckStatus ACK状态

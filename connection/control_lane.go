@@ -25,10 +25,10 @@
 package connection
 
 import (
-	"github.com/gorilla/websocket"
 	"github.com/HitGameAI/apex-toolbox/pkg/json"
 	"github.com/HitGameAI/apex-wsc/models"
 	"github.com/HitGameAI/apex-wsc/spi"
+	"github.com/gorilla/websocket"
 )
 
 // controlMessageTypes 控制类消息集合（判定收敛于此，勿在调用方散落）
