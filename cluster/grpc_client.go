@@ -24,8 +24,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/HitGameAI/apex-toolbox/pkg/logger"
 	"github.com/HitGameAI/apex-toolbox/pkg/breaker"
+	"github.com/HitGameAI/apex-toolbox/pkg/logger"
 	wscpb "github.com/HitGameAI/apex-wsc/models/pb"
 	"github.com/HitGameAI/apex-wsc/routing"
 	"google.golang.org/grpc"

@@ -16,10 +16,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/gorilla/websocket"
 	wscconfig "github.com/HitGameAI/apex-cos/pkg/wsc"
 	"github.com/HitGameAI/apex-toolbox/pkg/safe"
 	"github.com/HitGameAI/apex-toolbox/pkg/syncx"
+	"github.com/gorilla/websocket"
 
 	"github.com/HitGameAI/apex-wsc/models"
 )
