@@ -1091,7 +1091,7 @@ const file_node_proto_rawDesc = "" +
 	"\x0fNotifyObservers\x12\x1d.wscpb.NotifyObserversRequest\x1a\x1e.wscpb.NotifyObserversResponse\x12;\n" +
 	"\bKickUser\x12\x16.wscpb.KickUserRequest\x1a\x17.wscpb.KickUserResponse\x12/\n" +
 	"\x04Ping\x12\x12.wscpb.PingRequest\x1a\x13.wscpb.PingResponse\x12J\n" +
-	"\rBatchDispatch\x12\x1b.wscpb.BatchDispatchRequest\x1a\x1c.wscpb.BatchDispatchResponseB,Z*github.com/HitGameAI/apex-wsc/models/pb;wscpbb\x06proto3"
+	"\rBatchDispatch\x12\x1b.wscpb.BatchDispatchRequest\x1a\x1c.wscpb.BatchDispatchResponseB/Z-github.com/HitGameAI/apex-wsc/models/pb;wscpbb\x06proto3"
 
 var (
 	file_node_proto_rawDescOnce sync.Once
