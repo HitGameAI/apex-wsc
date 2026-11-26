@@ -112,7 +112,9 @@ func (h *SSEHandler) WithNodeID(nodeID string) *SSEHandler {
 	return h
 }
 
-// Wait 等待全部在途写循环退出（编排层优雅关闭时调用；ctx 取消后写循环自行退出，不会死锁）
+// Wait 等待全部在途写循环退出（编排层优雅关闭时调用；ctx 取消后写循环自行退出，不会死锁）。
+// 调用前须同步确认待等待的 WriteLoop 已开始；仅启动 goroutine 不保证此顺序。
+// Wait 不阻止之后的新写循环，接入与关闭仍由调用方管理。
 func (h *SSEHandler) Wait() {
 	h.wg.Wait()
 }

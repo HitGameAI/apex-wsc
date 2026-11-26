@@ -17,6 +17,7 @@ import (
 	"strings"
 	"sync/atomic"
 	"testing"
+	"time"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
@@ -54,7 +55,9 @@ func TestWithServersFailover(t *testing.T) {
 
 	assert.True(t, c.IsConnected(), "同轮轮转应最终连上可用地址")
 	assert.Equal(t, aliveURL, c.ConnectedUrl(), "应记录实际连上的地址")
-	assert.Equal(t, int32(1), aliveCount(), "可用服务器应恰被连接一次")
+	require.Eventually(t, func() bool {
+		return aliveCount() == 1
+	}, 2*time.Second, 10*time.Millisecond, "可用服务器应恰被连接一次")
 }
 
 // TestWithServersRandomDistribution 随机分布：多客户端随机挑选地址，
@@ -76,7 +79,9 @@ func TestWithServersRandomDistribution(t *testing.T) {
 		}
 	}()
 
-	assert.Equal(t, int32(total), countA()+countB(), "全部客户端应完成连接")
+	require.Eventually(t, func() bool {
+		return countA()+countB() == int32(total)
+	}, 2*time.Second, 10*time.Millisecond, "全部客户端应完成连接")
 	assert.True(t, countA() > 0 && countB() > 0,
 		"随机挑选应将连接分布到双侧服务器（A=%d B=%d）", countA(), countB())
 }
@@ -92,5 +97,7 @@ func TestWithServersSingleFallback(t *testing.T) {
 
 	assert.True(t, c.IsConnected())
 	assert.Equal(t, url, c.ConnectedUrl())
-	assert.Equal(t, int32(1), count())
+	require.Eventually(t, func() bool {
+		return count() == 1
+	}, 2*time.Second, 10*time.Millisecond, "服务端应记录一次连接")
 }

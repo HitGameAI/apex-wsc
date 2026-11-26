@@ -17,7 +17,9 @@ import (
 	"net/http"
 	"net/http/httptest"
 	"strings"
+	"sync"
 	"testing"
+	"testing/synctest"
 	"time"
 
 	"github.com/stretchr/testify/assert"
@@ -379,31 +381,74 @@ func TestSSEUpgradeEndToEnd(t *testing.T) {
 	}, 2*time.Second, 10*time.Millisecond, "客户端断开后应触发注销")
 }
 
-// TestSSEHandlerWait 等待在途写循环（优雅关闭语义）
+// sseStartedRecorder signals a real protocol flush after WriteLoop has registered
+// itself. Merely launching the goroutine does not order Add before Wait.
+type sseStartedRecorder struct {
+	*httptest.ResponseRecorder
+	flushed chan struct{}
+	once    sync.Once
+}
+
+func (w *sseStartedRecorder) Flush() {
+	w.ResponseRecorder.Flush()
+	w.once.Do(func() { close(w.flushed) })
+}
+
+// TestSSEHandlerWait verifies an active loop, its cleanup, and reuse without
+// sleeps or scheduler assumptions. synctest is available at this module's Go 1.25 floor.
 func TestSSEHandlerWait(t *testing.T) {
-	cfg := newUpgraderTestConfig()
+	// Construct the shared default logger outside the bubble: its unrelated
+	// background worker is not part of the connection's lifetime.
 	reg := &fakeRegistrar{}
-	h := newSSEHandler(cfg, reg)
+	h := newSSEHandler(newUpgraderTestConfig(), reg).WithHubContext(context.Background())
 
-	req := httptest.NewRequest(http.MethodGet, "/sse", nil)
-	client, err := h.CreateSSEClient(req, httptest.NewRecorder(), newSSEClientAttrs())
-	require.NoError(t, err)
+	synctest.Test(t, func(t *testing.T) {
+		h.Wait() // No active writer: must return without closing admission.
+		for i := 0; i < 2; i++ {
+			req := httptest.NewRequest(http.MethodGet, "/sse", nil)
+			recorder := &sseStartedRecorder{
+				ResponseRecorder: httptest.NewRecorder(),
+				flushed:          make(chan struct{}),
+			}
+			client, err := h.CreateSSEClient(req, recorder, newSSEClientAttrs())
+			require.NoError(t, err)
+			closeLoop := sync.OnceFunc(func() { close(client.SSECloseCh) })
+			defer closeLoop()
+			loopDone := make(chan struct{})
+			go func() {
+				h.WriteLoop(client, req)
+				close(loopDone)
+			}()
+			client.SSEMessageCh <- models.NewHubMessage()
+			<-recorder.flushed // Add and the first write happen before Wait.
 
-	// 写循环阻塞运行中，另起 goroutine 稍后关闭触发退出
-	done := make(chan struct{})
-	go func() {
-		time.Sleep(50 * time.Millisecond)
-		close(client.SSECloseCh)
-	}()
-	go func() {
-		h.WriteLoop(client, req)
-		close(done)
-	}()
+			waitDone := make(chan struct{})
+			go func() {
+				h.Wait()
+				close(waitDone)
+			}()
+			synctest.Wait() // Both the active loop and waiter are durably blocked.
+			select {
+			case <-waitDone:
+				t.Fatal("Wait returned before the active write loop exited")
+			default:
+			}
 
-	h.Wait() // 不死锁即通过（写循环已在途）
-	select {
-	case <-done:
-	case <-time.After(2 * time.Second):
-		t.Fatal("写循环应在 SSECloseCh 关闭后退出")
-	}
+			closeLoop()
+			synctest.Wait()
+			select {
+			case <-waitDone:
+			default:
+				t.Fatal("Wait did not return after the write loop exited")
+			}
+			select {
+			case <-loopDone:
+			default:
+				t.Fatal("the write loop did not finish")
+			}
+			_, _, unregistered, _ := reg.counts()
+			assert.Equal(t, i+1, unregistered)
+		}
+		h.Wait()
+	})
 }
