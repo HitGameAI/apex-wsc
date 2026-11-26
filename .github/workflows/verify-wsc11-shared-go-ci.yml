@@ -14,10 +14,13 @@ jobs:
       go-versions: '["1.25.0"]'
       platforms: '["ubuntu-latest"]'
       gotestsum-version: v1.13.0
-      test-flags: '-race -count=1 -exec=${{ github.workspace }}/.github/ci/run-wsc-tests-on-loopback'
+      test-flags: '-race -count=1 -exec=run-wsc-tests-on-loopback'
       coverage-go-version: '1.25.0'
       coverage-platform: ubuntu-latest
       coverage-upload: false
+      setup-script: |
+        test -x "$GITHUB_WORKSPACE/.github/ci/run-wsc-tests-on-loopback"
+        printf '%s\n' "$GITHUB_WORKSPACE/.github/ci" >> "$GITHUB_PATH"
       post-test-script: |
         git diff --exit-code -- go.mod go.sum
         test -z "$(gofmt -s -l .)"
