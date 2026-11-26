@@ -1,0 +1,25 @@
+name: Verify WSC 11 Shared Go CI
+
+on:
+  push:
+    branches: [codex/verify-wsc11-shared-go-ci-20261126]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    uses: HitGameAI/deploy-pipeline/.github/workflows/go-library-test.yml@fe59068c93c25b65ce4b9db6e8e5d801533e7d27
+    with:
+      go-versions: '["1.25.0"]'
+      platforms: '["ubuntu-latest"]'
+      gotestsum-version: v1.13.0
+      test-flags: '-race -count=1 -exec=${{ github.workspace }}/.github/ci/run-wsc-tests-on-loopback'
+      coverage-go-version: '1.25.0'
+      coverage-platform: ubuntu-latest
+      coverage-upload: false
+      post-test-script: |
+        git diff --exit-code -- go.mod go.sum
+        test -z "$(gofmt -s -l .)"
+        test -s coverage.txt
+        printf '::notice::WSC locks match the checkout; formatting and local coverage verified.\n'

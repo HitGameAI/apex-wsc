@@ -16,9 +16,9 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/HitGameAI/apex-toolbox/pkg/syncx"
 	"github.com/gorilla/websocket"
 	"github.com/jpillora/backoff"
-	"github.com/HitGameAI/apex-toolbox/pkg/syncx"
 
 	"github.com/HitGameAI/apex-wsc/models"
 )

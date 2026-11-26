@@ -26,8 +26,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/HitGameAI/apex-toolbox/pkg/cachex"
 	wscconfig "github.com/HitGameAI/apex-cos/pkg/wsc"
+	"github.com/HitGameAI/apex-toolbox/pkg/cachex"
 	"github.com/HitGameAI/apex-wsc/cluster"
 	"github.com/HitGameAI/apex-wsc/models"
 )

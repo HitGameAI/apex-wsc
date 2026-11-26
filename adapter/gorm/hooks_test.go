@@ -26,9 +26,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	glebarezsqlite "github.com/glebarez/sqlite"
 	wscconfig "github.com/HitGameAI/apex-cos/pkg/wsc"
 	"github.com/HitGameAI/apex-wsc/spi"
+	glebarezsqlite "github.com/glebarez/sqlite"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"gorm.io/gorm"

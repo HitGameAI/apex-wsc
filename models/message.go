@@ -15,8 +15,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/HitGameAI/apex-toolbox/pkg/logger"
 	"github.com/HitGameAI/apex-toolbox/pkg/json"
+	"github.com/HitGameAI/apex-toolbox/pkg/logger"
 	"github.com/HitGameAI/apex-wsc/constants"
 	"github.com/HitGameAI/apex-wsc/routing"
 )

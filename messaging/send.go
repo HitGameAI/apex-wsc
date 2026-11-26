@@ -17,8 +17,8 @@ import (
 	"runtime/debug"
 	"time"
 
-	"github.com/HitGameAI/apex-toolbox/pkg/logger"
 	"github.com/HitGameAI/apex-toolbox/pkg/errorx"
+	"github.com/HitGameAI/apex-toolbox/pkg/logger"
 	"github.com/HitGameAI/apex-toolbox/pkg/mathx"
 	"github.com/HitGameAI/apex-toolbox/pkg/retry"
 	"github.com/HitGameAI/apex-toolbox/pkg/syncx"

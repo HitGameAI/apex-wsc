@@ -26,9 +26,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gorilla/websocket"
 	"github.com/HitGameAI/apex-toolbox/pkg/logger"
 	"github.com/HitGameAI/apex-wsc/models"
+	"github.com/gorilla/websocket"
 )
 
 // frameHeaderPool 帧头缓冲池（最大 10 字节：1 FIN/opcode + 1 长度标记 + 8 扩展长度）
