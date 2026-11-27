@@ -21,8 +21,8 @@ package wscpb
 import (
 	"fmt"
 
-	"github.com/HitGameAI/apex-toolbox/pkg/pbmo"
 	"github.com/HitGameAI/apex-toolbox/pkg/errorx"
+	"github.com/HitGameAI/apex-toolbox/pkg/pbmo"
 	"github.com/HitGameAI/apex-wsc/models"
 	"google.golang.org/protobuf/proto"
 )

@@ -30,8 +30,8 @@ import (
 	"time"
 
 	wscconfig "github.com/HitGameAI/apex-cos/pkg/wsc"
-	"github.com/HitGameAI/apex-toolbox/pkg/logger"
 	"github.com/HitGameAI/apex-toolbox/pkg/json"
+	"github.com/HitGameAI/apex-toolbox/pkg/logger"
 	"github.com/HitGameAI/apex-toolbox/pkg/mathx"
 	"github.com/HitGameAI/apex-wsc/messaging"
 	"github.com/HitGameAI/apex-wsc/models"

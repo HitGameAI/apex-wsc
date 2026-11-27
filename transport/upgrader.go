@@ -26,7 +26,6 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/gorilla/websocket"
 	gccommon "github.com/HitGameAI/apex-cos/pkg/common"
 	wscconfig "github.com/HitGameAI/apex-cos/pkg/wsc"
 	"github.com/HitGameAI/apex-toolbox/pkg/logger"
@@ -37,6 +36,7 @@ import (
 	"github.com/HitGameAI/apex-wsc/messaging"
 	"github.com/HitGameAI/apex-wsc/models"
 	"github.com/HitGameAI/apex-wsc/spi"
+	"github.com/gorilla/websocket"
 )
 
 // DefaultMaxInboundBytes 服务端单帧入站上限默认值（1 MiB）
