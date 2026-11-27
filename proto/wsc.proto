@@ -1,8 +1,10 @@
+// Copyright (c) 2026 by kamalyes, All Rights Reserved.
+
 syntax = "proto3";
 
 package wsc;
 
-option go_package = "github.com/kamalyes/go-wsc/models/pb;wscpb";
+option go_package = "github.com/HitGameAI/apex-wsc/models/pb;wscpb";
 
 import "google/protobuf/struct.proto";
 import "google/protobuf/timestamp.proto";

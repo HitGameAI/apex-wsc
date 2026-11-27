@@ -107,6 +107,9 @@ func TestOutboxFlushSuccessRegistersAckOnlySending(t *testing.T) {
 		return len(sink.createdSnapshot()) == 2
 	}, 2*time.Second, 5*time.Millisecond, "两条记录应成功落库")
 
+	// 等已落库批次完成 pending 清理及 ACK 回调。
+	o.Stop()
+
 	assert.Equal(t, 0, outboxPendingLen(o), "成功 flush 后 pending 应清空")
 
 	mu.Lock()
